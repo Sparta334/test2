@@ -1,0 +1,379 @@
+.ImageBox {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    text-align: center; 
+  }
+  
+  .ImageBox img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+ /* 展示區產品圖片 */ 
+  .imgText {
+    font-size: 17px;
+    font-weight: bold;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+
+  /* 進入商店頁面按鈕字體 */
+  .shop{
+    background-color: rgb(90, 76, 76); 
+    color: rgb(255, 255, 255);
+    border: 20px 0;
+    position:relative;
+    top:50%;
+    left:70%;
+    transform:translate(-50%,-50%);
+    margin:auto;
+    border: 20px 0;
+  }
+ 
+  /* 顯示更多按鈕 */
+  .more{
+    
+    background-color: rgb(90, 76, 76); 
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    align-self: center;
+    border: none; 
+    font-size: large;
+    }
+
+    
+    .ItemsLayout {
+    
+        margin: 0 auto;
+        box-sizing: border-box;
+    
+        padding-top: 10px;
+        padding-bottom: 40px;
+        z-index: -3;
+        width:40%;
+    
+      }
+      
+
+  
+ /* 小於 768px 的平板的排版 */
+ @media screen and (max-width: 768px) {
+    .ItemsLayout {
+      margin: 0 auto;
+      padding-top: 10px;
+      padding-bottom: 0;
+      box-sizing: border-box;
+      width:80%;
+    }
+  
+    
+    .ImageBox {
+      width: 45%;
+      padding-bottom: 30%;
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      box-sizing: border-box;
+      text-align: center;
+    }
+  
+    .ImageBox img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    .imgText {
+      font-size: 16px;
+      font-weight: bold;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      position: relative;
+    }
+
+
+    .more{
+        max-width: 300px;
+        background-color: rgb(0, 0, 0); 
+        color: rgb(255, 255, 255);
+        bottom: 0;
+        transform: translateX(-50%);
+        display: inline-block;
+        margin-top: 60px;
+        align-self: center;
+        border: none; 
+        font-size: large;
+        left: 10%;
+    }
+
+    .shop{
+      top:55%;
+      left:63%;
+      border: 30px 0;
+    }
+  }
+
+
+
+
+  .imageA{
+    
+    width: auto;
+    
+  }
+
+
+  .Title{
+    font-weight:  normal;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:68vh !important;
+    width: 100%;
+    margin-bottom: -120px;
+    
+  }
+ 
+  .form_widget {
+    width: 40%;
+    padding: 30px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    /* box-shadow: 0 8px 16px rgba(141, 28, 28, 0.832); */
+    /* animation: shadow 15s infinite; */
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    box-shadow: 10px 5px 5px #908b8b;
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+  
+
+    .form_widget {
+      width: auto;
+      padding: 30px;
+      background-color: whitesmoke;
+      border-radius: 5px;
+      /* box-shadow: 0 8px 16px rgba(141, 28, 28, 0.832); */
+      /* animation: shadow 15s infinite; */
+      position: absolute;
+      z-index: 2;
+      text-align: center;
+      box-shadow: 10px 5px 5px #908b8b;
+    }
+  
+  
+  
+  }
+
+  
+  /* 登錄界面大小顔色預設 */
+
+/* box的shadow動畫 */
+@keyframes shadow {
+  0% {
+    box-shadow: 0 8px 16px rgba(141, 28, 28, 0.832);
+  }
+  25% {
+    box-shadow: 0 8px 16px rgba(255, 87, 34, 0.832);
+  }
+  50% {
+    box-shadow: 0 8px 16px rgba(39, 4, 243, 0.832);
+  }
+  75% {
+    box-shadow: 0 8px 16px rgba(30, 233, 37, 0.832);
+  }
+  100% {
+    box-shadow: 0 8px 16px rgba(33, 150, 243, 0.832);
+  }
+}
+
+  /* 設置好文字 */
+  .header {
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 32px; */
+    /* font-weight: bolder; */
+    -webkit-background-clip: text;
+    background-color: #000;
+     /* background-image: linear-gradient(90deg , rgba(98, 201, 248,0.6),rgba(243, 111, 255, 0.6),rgba(247, 129, 129, 0.6),rgba(241, 239, 104, 0.6),rgba(117, 226, 84, 0.6),rgba(98, 201, 248,0.6)); */
+    background-size: 800%;
+    /* animation: gradient 30s infinite linear; */
+    color: transparent;
+    /* line-height: 100px; */
+    font-size: 32px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  /* 顔色動畫 */ 
+  @keyframes gradient{
+    100%{
+        background-position: -800% 0%;
+    }
+}
+  
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4c4c4c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #000000;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+
+  
+  .spin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .ant-spin-dot-item {
+    background-color: #fff;
+  }
+  .ant-spin-text {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    margin-left: 10px;
+  }
+  .anticon {
+    font-size: 2rem;
+  }
+
+
+  
+    /* X號修改非常重要 出問題了 已經提供預設 */
+  .Cross{
+    padding-left: 100% !important;
+    margin-top: -60px;
+  }
+
+  .Cross a {
+    color: rgb(98, 84, 84); /* 根据您想要的颜色进行调整 */
+    padding-top: 30%;
+  }
+
+  .Cross2{
+    
+    padding-left: 30% !important;
+    margin-top: -3%;
+
+    
+  }
+
+  .Cross2 a {
+    color: rgb(98, 84, 84); /* 根据您想要的颜色进行调整 */
+    padding-top: 30%;
+  }
+
+  .CrossFlex{
+  
+  
+    display: flex;
+  }
+
+  
+  .TextForOption{
+    
+    margin-top: 5%;
+    text-align: center;
+  
+  
+  }
+
+
+  .UserProfileBack{
+  
+    background-color: cornflowerblue;
+    height:40vh;
+    position: absolute;
+    width: 100%;
+  
+  }
+
+
+
+  .TitleProfile{
+  
+    background-color: #fff;
+  
+  }
+
+
+
+  @media screen and (max-width: 768px){
+      
+  
+      .slick-next:before {
+          display: block;
+          transform: translateX(10px); /* adjust the pixel value as needed */
+      }
+  
+      .slick-prev:before {
+          display: block;
+          transform: translateX(-10px); /* adjust the pixel value as needed */
+      }
+      .slick-dots{
+         
+  
+          width: 100%; /* reduce the width to 300px */
+          height: 20px; /* reduce the height to 10px */
+        
+          
+      }
+      
+      
+  }
+  
+  
+  .slick-dots li button:before {
+  
+  
+      position: static;
+  
+  }

@@ -1,0 +1,270 @@
+/*.SearchFieldBox{
+
+    
+
+}
+
+.navbar{
+    
+
+
+
+}
+
+.Logo{
+
+    
+}*/
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar 樣式 */
+.navbar {
+    
+ 
+    height: 65px;
+    padding: 20px 0 20px;
+    /*For test color↓*/
+    width: 100%;    
+    top:0;
+    transition: .3s linear;
+    position:relative;
+    justify-content: space-around;
+    
+    /*background-color: transparent;*/
+  }
+
+  .inner-width{
+    justify-content: space-between;
+
+  }
+  /* Logo 樣式 */
+  .Logo {
+    height: 60px;
+    width: 60px;
+    background-size: contain;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: -10px;
+    
+  }
+  
+  /* 導航列樣式 */
+  .navItem {
+    font-size: 22px;
+    margin: 0 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 5px;
+    align-items: baseline;
+    
+  }
+  
+
+
+
+  /*選中主題*/
+  .navItemActive {
+    font-size: 28px;
+    color: #00a1d6;
+    border-bottom: 2px solid #00a1d6;
+    margin-left: 10px;
+    margin-right: 5px;
+    
+  }
+  
+  /* 搜尋欄樣式 */
+  .SearchBar {
+    width: 200px;
+    height: 32px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  
+  /* 登入按鈕樣式 */
+.LoginBtn {
+  color: #333;
+  text-decoration: none;
+  margin-left: 10px;
+}
+/*navbar 動畫*/
+.sticky{
+  background-color: #fff;
+  padding: 18px 0;
+}
+
+.loginitem {
+
+  justify-content: end;
+
+}
+
+
+
+
+
+/* 小於 768px 的平板的排版 */
+@media only screen and (max-width: 768px) {
+  /* Navbar 樣式 */
+  .navbar {
+  
+    padding-bottom: 5px;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+    
+  }
+
+  /* Logo 樣式 */
+  .Logo {
+    height: 40px;
+    width: 40px
+    
+  }
+
+  /* 導航列樣式 */
+  .navItem {
+    font-size: 18px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+
+.navItemCollapse{
+
+  font-size: 14px;
+  margin: auto;
+  color: #fff  !important;
+
+}
+
+
+  /*選中主題*/
+  .navItemActive {
+    font-size: 24px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  /* 搜尋欄樣式 */
+  .SearchBar {
+    width: 150px;
+    height: 28px;
+    margin: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+  /* 登入按鈕樣式 */
+  .LoginBtn {
+    margin: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+  /* 登錄按鈕位置 */
+  .loginitem {
+    padding:1% 10% 0 40px;
+    
+  }
+
+
+  
+}
+
+
+.navbarLeft{
+
+  align-items: center;
+  display: flex;
+  vertical-align:middle;
+}
+
+
+.navbarRight{
+
+  align-items: center;
+  display: flex;
+  vertical-align:middle;
+  justify-content: end;
+  padding-right: 7%;
+}
+.navbarwidth{
+  display: flex;
+justify-content: space-between;
+  width: 100%;
+
+}
+
+.loginText{
+
+  display:flex;
+  justify-content: end;
+
+}
+
+.DropDown{
+
+  list-style: none;
+  color: #fff !important;
+
+}
+
+.DropDownItem{
+
+  margin-top: 8%;
+  margin-bottom: 8%;
+  align-items: center;
+
+}
+
+
+.MobileLogo{
+
+  display: flex;
+  justify-content: end;
+  width: 100%;
+
+}
+
+.navItemText{
+
+  font-size: 22px
+}
+
+
+.navbarRight2{
+
+  align-items: center;
+  display: flex;
+  vertical-align:middle;
+  justify-content: end;
+  text-decoration: none;
+  
+}
+
+.DrawerItems{
+
+  padding-top: 10%;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-size: medium;
+
+}
+
+.DrawerItems2{
+
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-size: medium;
+
+}

@@ -1,0 +1,275 @@
+:root{
+
+  overflow-x: hidden;
+}
+
+html{
+
+
+  background-color: black;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.container{
+
+  max-width: 100%;
+
+}
+
+.ant-drawer-wrapper-body{
+  display: block !important;
+  color: #fff;
+  height: calc(100vh - 55px);
+}
+
+.ant-drawer-wrapper-body .ant-drawer-body{
+
+  padding-top: 1%;
+  padding-bottom: 1%;
+  position: absolute  !important;
+  z-index: 9999;
+  width: 100%;
+
+}
+
+.ant-drawer-body{
+
+  position: absolute  !important;
+  z-index: 9999;
+
+}
+.slick-dots{
+  position:relative;
+  bottom: unset;
+  z-index: 4;
+
+}
+
+.react-search-field-button{
+  margin-top: 0;
+}
+
+.Swicth{
+
+  position: fixed;
+  z-index: 999999;;
+  margin-left: 97%;
+  top:5px;
+  right: 5px;
+  border:10px solid rgba(0, 0, 0, 1);
+  background-color:rgba(0, 0, 0, 1) ;
+  border-radius: 50%;
+
+}
+
+@media screen and (max-width: 767px) {
+  
+  .Swicth{
+
+    position: fixed;
+    z-index: 999999;;
+    margin-left: 97%;
+    top:5px;
+    right: 20px;
+    border:10px solid rgba(0, 0, 0, 1);
+    background-color:rgba(0, 0, 0, 1) ;
+    border-radius: 50%;
+
+  }
+
+}
+
+
+
+a{
+
+
+  
+  display:block;
+  
+  
+  
+}
+
+/* SignForm */
+
+
+
+.ant-form-item .ant-form-item-label >label{
+  
+  color: black !important;
+
+}
+
+
+/* 主畫面帳號選單 */
+
+.ant-collapse-header {
+
+  color: #fff !important;
+
+}
+
+
+.ant-drawer .ant-drawer-header-title{
+
+
+  display: block;
+
+
+}
+
+.ant-drawer-content-wrapper{
+
+  position: absolute !important;
+  z-index: 5;
+}
+
+.ant-drawer .ant-drawer-header {
+
+  padding-top: 5%;
+  
+}
+
+.ant-drawer-close{
+
+  margin-top: 5%;
+
+
+}
+
+.ant-drawer-wrapper-body .ant-drawer-body{
+
+  text-align: center;
+
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 26px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  text-align: center;
+  
+}
+
+/* General sidebar styles */
+.bm-menu {
+  
+  background: #373a47;
+  height: auto;
+  font-size: 1.15em;
+  height: 45% !important; 
+  overflow: visible !important;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  display: flex;
+  color: #b8b7ad;
+  padding-top: 0.8em;
+  padding-right: 0.8em;
+  padding-left: 0.8em;
+  height: auto !important;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+
+.ant-modal{
+
+  position: absolute;
+  z-index: 999;
+
+}
+
+.ant-modal-root .ant-modal-wrap{
+  display: flex;
+  position: absolute;
+  z-index: 9999;
+  justify-content: center;
+}
+

@@ -1,0 +1,94 @@
+[
+    {
+        "id":"N1",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg?t=1680071511",
+        "ProductName" : "Resident Evil 4",
+
+        "Detail":[ 
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/ss_69810f4cd155912fdfdd21da70181df7d454c874.1920x1080.jpg?t=1680071511",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/ss_0596bac955340495562f3ff2538756ebd9a7f073.1920x1080.jpg?t=1680071511",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/ss_0554b945aafc847d55f780f7968de00aafa968a3.1920x1080.jpg?t=1680071511",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/ss_72888d13c9e3995f05a2886a51f0dc8791e28afa.1920x1080.jpg?t=1680071511",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/ss_98d9687b6acf5feff600b483d9f30e52079091e9.1920x1080.jpg?t=1680071511"
+
+        ]
+
+    },
+    
+    {
+        "id":"N2",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2138710/header.jpg?t=1680512424",
+        "ProductName" : "Sifu",
+
+        "Detail":[ 
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/2138710/ss_c917c981f912e8331b40a2638a32b3021458d4b8.1920x1080.jpg?t=1680512424",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/2138710/ss_6541bc550e7b1133d123ebce8b0e098dccbe66eb.1920x1080.jpg?t=1680512424",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/2138710/ss_c400edce5e28150a5d9859aaace1c76fb2b44d78.1920x1080.jpg?t=1680512424",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/2138710/ss_8bdc441c064f7ac1f75a33bb9f50e38110f38d28.1920x1080.jpg?t=1680512424",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/2138710/ss_e13cb718cba01b51788627b43226fedd52caa217.1920x1080.jpg?t=1680512424"
+
+        ]
+
+    },
+    {
+        "id":"N3",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/header.jpg?t=1680282721",
+        "ProductName" : "The Last of Us™ Part I",
+
+        "Detail":[ 
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/ss_abc373417afe2172ddf7b6d91442a14366a46975.1920x1080.jpg?t=1680282721",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/ss_877f930b9b7fe4a57af1707cdaef64ed37213b4e.1920x1080.jpg?t=1680282721",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/ss_ea8b45bb65d05fafa911387df16399ead11e6878.1920x1080.jpg?t=1680282721",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/ss_5d7cf9e0857d10924def80a1bb0ce8f5f8da1b02.1920x1080.jpg?t=1680282721",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/ss_e67d2ca76b0c8985a3615afb38c21e893df73272.1920x1080.jpg?t=1680282721"
+
+        ]
+
+    },
+    {
+        "id":"N4",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg?t=1650554420",
+        "ProductName" : "God of War",
+
+        "Detail":[ 
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/ss_6eccc970b5de2943546d93d319be1b5c0618f21b.1920x1080.jpg?t=1650554420",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/ss_f1bff24d3967a21d303d95e11ed892e3d9113057.1920x1080.jpg?t=1650554420",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/ss_3670ba72c7e3e9c3c3225547ef2c1053504e62b8.1920x1080.jpg?t=1650554420",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/ss_1bd99270dcbd4ff9fe9c94b0d9c8ffc50ebb42c7.1920x1080.jpg?t=1650554420",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/ss_8db3de5b5d611e50945268848de2889e1ed4ba84.1920x1080.jpg?t=1650554420"
+
+        ]
+
+    },
+    {
+        "id":"N5",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/870780/header.jpg?t=1676056424",
+        "ProductName" : "Control Ultimate Edition",
+
+        "Detail":[ 
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/870780/ss_949cf39deee737fec3aadff903ec5311dd22bdab.1920x1080.jpg?t=1676056424",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/870780/ss_455ab81ea90f5668ff384d60d68baef1e2e74e55.1920x1080.jpg?t=1676056424",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/870780/ss_06b7e4baac0ac7f2ecfcc8d3198f707339c6296f.1920x1080.jpg?t=1676056424",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/870780/ss_5a16ce565951479e142c56a23f19d88333d84945.1920x1080.jpg?t=1676056424"
+           
+
+        ]
+
+    },
+    {
+        "id":"N6",
+        "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/header.jpg?t=1649438096",
+        "ProductName" : "DEATH STRANDING",
+
+        "Detail":[ 
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/ss_f64a1140651ff5af30eb63bb6e5b41753d00a98e.1920x1080.jpg?t=1649438096",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/ss_4b6d7d010d1701b2b57bf8ef1b4975a04b3d632f.1920x1080.jpg?t=1649438096",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/ss_8f0a2b1f6ea6da05c53f802034e08cbe92aaccab.1920x1080.jpg?t=1649438096",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/ss_87653eb3d360766a994adccd82767b34961b37a5.1920x1080.jpg?t=1649438096",
+            "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/ss_0d8ccac035eb175f8f19571c45c89be6ff46c2c6.1920x1080.jpg?t=1649438096"
+           
+
+        ]
+
+    }
+]

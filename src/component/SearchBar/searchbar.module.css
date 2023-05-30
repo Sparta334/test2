@@ -1,0 +1,44 @@
+
+
+.SearchFieldBox{
+
+    border: none !important;
+
+}
+
+
+#SearchFieldDrawer{
+
+    position: absolute;
+   
+
+
+}
+
+#SearchFieldDrawerBox{
+
+    
+    position: relative;
+}
+
+
+
+.box{
+
+    padding-top: 5% ;
+    padding-bottom: 5%;
+
+}
+
+
+
+
+@media screen and (min-width: 767px){
+
+    .Spaceitem{
+
+        position: static;
+    
+    }
+    
+}

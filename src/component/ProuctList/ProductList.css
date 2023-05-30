@@ -1,0 +1,42 @@
+
+
+
+.slick-dots{
+       
+
+    margin-left: -0.5%;
+  
+    
+}
+@media screen and (max-width: 768px){
+    
+
+    .slick-next:before {
+        display: block;
+        transform: translateX(10px); /* adjust the pixel value as needed */
+    }
+
+    .slick-prev:before {
+        display: block;
+        transform: translateX(-10px); /* adjust the pixel value as needed */
+    }
+    .slick-dots{
+       
+
+        width: 100%; /* reduce the width to 300px */
+        height: 20px; /* reduce the height to 10px */
+        margin-left: -1%;
+      
+        
+    }
+    
+    
+}
+
+
+.slick-dots li button:before {
+
+
+    position: static;
+
+}
